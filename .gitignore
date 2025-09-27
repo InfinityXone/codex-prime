@@ -1,0 +1,31 @@
+# === ENV & Secrets ===
+*.env
+config/*.env
+supabase.env
+vercel.env
+wallets.env
+runtime.env
+master.env
+
+# === Logs & Runtime State ===
+logs/**
+*.log
+*.json
+
+# === Supabase Temp ===
+supabase/.temp/**
+supabase/logs.sql
+
+# === Build / Cache / Artifacts ===
+*.pyc
+__pycache__/
+*.swp
+*.tmp
+
+# === Cloud Sync Artifacts ===
+.gdrive/
+gdrive_sync/
+rclone.conf
+
+# === Local Only ===
+.DS_Store
